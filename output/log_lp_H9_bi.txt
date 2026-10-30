@@ -1,0 +1,25 @@
+Warning messages:
+1: package 'fixest' was built under R version 4.4.3 
+2: package 'sandwich' was built under R version 4.4.3 
+panel H9 | types ISL/CONV | units 16 | sectors 8 | months 198 (2009-01-01 .. 2025-06-01)
+  done bi_rule_resid
+
+=== differential response, per 25 bp surprise, percent (DK s.e.) ===
+           shock     h    b25   se25      t     n ts_b25 ts_se25
+          <char> <int> <char> <char> <char> <int> <char>  <char>
+1: bi_rule_resid     0 -0.284  0.238  -1.19  2244 -0.218   0.212
+2: bi_rule_resid     3 -0.410  0.409  -1.00  1816 -0.714   0.365
+3: bi_rule_resid     6  0.030  1.074   0.03  1488 -0.561   0.860
+4: bi_rule_resid    12 -0.342  0.628  -0.54  1043 -0.283   0.609
+5: bi_rule_resid    18 -0.800  0.363  -2.20   751 -1.543   0.629
+6: bi_rule_resid    24  1.744  1.185   1.47   552  0.566   1.017
+
+=== block permutation, h = 12 ===
+           shock     h       b_obs  p_two n_perm
+          <char> <int>       <num>  <num>  <int>
+1: bi_rule_resid    12 -0.01130808 0.8005   2000
+
+=== pre-trend (growth over t-4..t-1 on eps_t) ===
+           shock       b_pre     se_pre n_pre
+          <char>       <num>      <num> <int>
+1: bi_rule_resid 0.009411085 0.02198859  2228

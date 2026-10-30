@@ -1,0 +1,33 @@
+Warning messages:
+1: package 'fixest' was built under R version 4.4.3 
+2: package 'sandwich' was built under R version 4.4.3 
+innovation s.d. by type (monthly log change):
+   bank_type          s
+      <char>      <num>
+1:      CONV 0.03182273
+2:       ISL 0.04443638
+  done jk_mp_median null 
+  done jk_mp_median ramp 
+  done bi_rule_resid null 
+  done bi_rule_resid ramp 
+
+=== Monte Carlo ( 300 draws ): percent per 25 bp; true beta = -2.4 under 'ramp' ===
+              shock    dgp     est bias25   sd25 mean_se25 cover90
+             <char> <char>  <char> <char> <char>    <char>  <char>
+   1:  jk_mp_median   null LP h=12  -0.92  14.36      9.13    0.69
+   2:  jk_mp_median   null LP h=12  -0.92  14.36      9.13    0.69
+   3:  jk_mp_median   null LP h=12  -0.92  14.36      9.13    0.69
+   4:  jk_mp_median   null LP h=12  -0.92  14.36      9.13    0.69
+   5:  jk_mp_median   null LP h=12  -0.92  14.36      9.13    0.69
+  ---                                                             
+4796: bi_rule_resid   ramp DL h=24  -0.04   3.22      2.75    0.83
+4797: bi_rule_resid   ramp DL h=24  -0.04   3.22      2.75    0.83
+4798: bi_rule_resid   ramp DL h=24  -0.04   3.22      2.75    0.83
+4799: bi_rule_resid   ramp DL h=24  -0.04   3.22      2.75    0.83
+4800: bi_rule_resid   ramp DL h=24  -0.04   3.22      2.75    0.83
+
+DK Wald test of all 25 DL lags under the null: rejection rates
+           shock dl_wald_reject_05 dl_wald_reject_10
+          <char>             <num>             <num>
+1:  jk_mp_median         1.0000000         1.0000000
+2: bi_rule_resid         0.9966667         0.9966667

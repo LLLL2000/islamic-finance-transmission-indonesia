@@ -1,0 +1,75 @@
+Warning messages:
+1: package 'fixest' was built under R version 4.4.3 
+2: package 'sandwich' was built under R version 4.4.3 
+panel H15 | types ISL/CONV | units 30 | sectors 15 | months 109 (2016-06-01 .. 2025-06-01)
+  done jk_mp_median
+  done jk_mp_pm
+  done usmpd_stmt
+  done usmpd_me
+  done bs_mps_orth
+  done jk_cbi_median
+  done bi_rule_resid
+There were 17 warnings (use warnings() to see them)
+
+=== differential response, per 25 bp surprise, percent (DK s.e.) ===
+            shock     h    b25   se25      t     n  ts_b25 ts_se25
+           <char> <int> <char> <char> <char> <int>  <char>  <char>
+ 1:  jk_mp_median     0  0.075  0.893   0.08  2113  -0.202   0.876
+ 2:  jk_mp_median     3  0.433  2.457   0.18  1722   0.019   2.023
+ 3:  jk_mp_median     6 -3.411  1.656  -2.06  1426  -4.540   2.129
+ 4:  jk_mp_median    12 -1.052  2.931  -0.36   971  -3.085   3.111
+ 5:  jk_mp_median    18  2.778  1.938   1.43   579  -1.416   2.756
+ 6:  jk_mp_median    24  0.115  0.796   0.14   363  -3.103   4.942
+ 7:      jk_mp_pm     0  0.652  0.582   1.12  2113   0.543   0.705
+ 8:      jk_mp_pm     3 -0.319  1.883  -0.17  1722  -0.818   1.745
+ 9:      jk_mp_pm     6 -2.370  0.950  -2.50  1426  -3.235   1.032
+10:      jk_mp_pm    12 -1.444  1.647  -0.88   971  -2.232   1.816
+11:      jk_mp_pm    18  1.331  1.024   1.30   579  -0.664   2.953
+12:      jk_mp_pm    24  0.084  0.584   0.14   363  -4.362   2.462
+13:    usmpd_stmt     0  1.210  0.819   1.48  2113   0.484   1.002
+14:    usmpd_stmt     3 -1.439  1.778  -0.81  1722  -1.946   1.711
+15:    usmpd_stmt     6 -2.911  0.751  -3.88  1426  -3.471   0.765
+16:    usmpd_stmt    12 -2.450  1.656  -1.48   971  -3.166   1.727
+17:    usmpd_stmt    18  1.114  1.118   1.00   579   0.190   2.573
+18:    usmpd_stmt    24 -0.239  0.460  -0.52   363  -5.553   1.659
+19:      usmpd_me     0  0.326  1.077   0.30  2113  -0.421   1.306
+20:      usmpd_me     3 -1.586  1.502  -1.06  1722  -1.148   2.034
+21:      usmpd_me     6 -2.672  0.933  -2.86  1426  -1.398   2.395
+22:      usmpd_me    12 -3.066  1.277  -2.40   971  -3.403   1.558
+23:      usmpd_me    18  0.955  0.891   1.07   579   0.268   2.241
+24:      usmpd_me    24  0.425  0.554   0.77   363  -4.280   2.033
+25:   bs_mps_orth     0  0.744  1.341   0.55  1537  -0.099   1.094
+26:   bs_mps_orth     3  4.359  1.937   2.25  1272   2.854   2.020
+27:   bs_mps_orth     6  2.396  2.895   0.83  1069   2.259   4.069
+28:   bs_mps_orth    12  7.503  5.750   1.30   737  -1.527   5.154
+29:   bs_mps_orth    18  9.862  2.105   4.69   463  -4.492   6.007
+30:   bs_mps_orth    24  3.840  0.609   6.30   323   2.548   2.841
+31: jk_cbi_median     0  2.695  1.276   2.11  2113   3.260   1.064
+32: jk_cbi_median     3 -2.890  3.253  -0.89  1722  -4.023   2.442
+33: jk_cbi_median     6 -0.468  4.104  -0.11  1426   1.638   4.715
+34: jk_cbi_median    12 -3.160  2.993  -1.06   971  -0.158   4.073
+35: jk_cbi_median    18 -0.104  2.795  -0.04   579   1.696   5.597
+36: jk_cbi_median    24  0.048  0.774   0.06   363 -11.961   1.895
+37: bi_rule_resid     0 -0.272  0.167  -1.63  2113  -0.340   0.160
+38: bi_rule_resid     3 -0.233  0.318  -0.73  1722  -0.562   0.354
+39: bi_rule_resid     6  0.367  0.605   0.61  1426   0.204   0.480
+40: bi_rule_resid    12  0.298  0.726   0.41   971  -0.017   0.549
+41: bi_rule_resid    18 -1.001  1.194  -0.84   579  -0.910   0.786
+42: bi_rule_resid    24  0.626  0.486   1.29   363   0.764   1.164
+            shock     h    b25   se25      t     n  ts_b25 ts_se25
+
+=== block permutation, h = 12 ===
+          shock     h      b_obs p_two n_perm
+         <char> <int>      <num> <num>  <int>
+1: jk_mp_median    12 -0.1234121 0.522   2000
+
+=== pre-trend (growth over t-4..t-1 on eps_t) ===
+           shock        b_pre     se_pre n_pre
+          <char>        <num>      <num> <int>
+1:  jk_mp_median  0.099193236 0.05519472  2083
+2:      jk_mp_pm  0.078565150 0.04520397  2083
+3:    usmpd_stmt  0.028332437 0.05170455  2083
+4:      usmpd_me -0.062210222 0.08264964  2083
+5:   bs_mps_orth  0.095715107 0.10813327  1537
+6: jk_cbi_median  0.091347681 0.14228182  2083
+7: bi_rule_resid  0.009233269 0.01892202  2083

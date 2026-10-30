@@ -1,0 +1,74 @@
+Warning messages:
+1: package 'fixest' was built under R version 4.4.3 
+2: package 'sandwich' was built under R version 4.4.3 
+panel H9 | types ISL/CONV | units 16 | sectors 8 | months 198 (2009-01-01 .. 2025-06-01)
+  done jk_mp_median
+  done jk_mp_pm
+  done usmpd_stmt
+  done usmpd_me
+  done bs_mps_orth
+  done jk_cbi_median
+  done bi_rule_resid
+
+=== differential response, per 25 bp surprise, percent (DK s.e.) ===
+            shock     h    b25   se25      t     n ts_b25 ts_se25
+           <char> <int> <char> <char> <char> <int> <char>  <char>
+ 1:  jk_mp_median     0  1.084  1.171   0.93  2244  0.102   0.953
+ 2:  jk_mp_median     3  2.389  2.488   0.96  1816  1.326   1.928
+ 3:  jk_mp_median     6 -3.492  2.827  -1.24  1488 -2.684   2.333
+ 4:  jk_mp_median    12 -1.688  3.863  -0.44  1043 -0.094   2.448
+ 5:  jk_mp_median    18  5.166  2.594   1.99   751  5.587   2.836
+ 6:  jk_mp_median    24 -0.628  3.707  -0.17   552 -0.233   1.735
+ 7:      jk_mp_pm     0  0.641  0.715   0.90  2244  0.067   0.819
+ 8:      jk_mp_pm     3  0.916  2.431   0.38  1816  0.987   2.065
+ 9:      jk_mp_pm     6 -1.199  3.113  -0.39  1488 -0.447   2.936
+10:      jk_mp_pm    12 -1.628  2.764  -0.59  1043 -0.397   2.480
+11:      jk_mp_pm    18  5.714  2.136   2.68   751  6.653   2.222
+12:      jk_mp_pm    24  4.633  4.664   0.99   552  0.597   1.618
+13:    usmpd_stmt     0  1.038  1.032   1.01  2244  0.331   1.208
+14:    usmpd_stmt     3 -0.036  3.063  -0.01  1816  0.076   2.820
+15:    usmpd_stmt     6 -0.801  3.567  -0.22  1488 -0.238   3.666
+16:    usmpd_stmt    12 -1.300  2.766  -0.47  1043 -0.032   3.022
+17:    usmpd_stmt    18  5.173  2.211   2.34   751  6.387   2.070
+18:    usmpd_stmt    24  3.048  4.092   0.74   552 -0.595   1.296
+19:      usmpd_me     0 -0.446  1.314  -0.34  2244 -0.530   1.325
+20:      usmpd_me     3 -0.825  2.370  -0.35  1816  0.067   2.437
+21:      usmpd_me     6 -2.564  2.013  -1.27  1488 -0.058   3.064
+22:      usmpd_me    12 -2.300  2.113  -1.09  1043 -0.827   2.474
+23:      usmpd_me    18  4.243  1.566   2.71   751  5.923   1.680
+24:      usmpd_me    24 -0.320  3.144  -0.10   552 -2.140   1.712
+25:   bs_mps_orth     0  0.537  1.514   0.35  1937 -0.065   1.303
+26:   bs_mps_orth     3  5.334  2.833   1.88  1577  3.826   2.535
+27:   bs_mps_orth     6  2.150  3.794   0.57  1300  0.896   2.803
+28:   bs_mps_orth    12  7.089  7.756   0.91   928  2.710   5.162
+29:   bs_mps_orth    18  4.853  2.750   1.76   703  2.265   3.385
+30:   bs_mps_orth    24 -3.517  7.706  -0.46   536 -1.534   5.720
+31: jk_cbi_median     0 -0.692  2.199  -0.31  2244  0.293   1.784
+32: jk_cbi_median     3 -3.709  3.725  -1.00  1816 -1.667   3.178
+33: jk_cbi_median     6  5.868  5.901   0.99  1488  6.537   5.097
+34: jk_cbi_median    12  2.546  5.479   0.46  1043  1.644   4.869
+35: jk_cbi_median    18  4.471  6.638   0.67   751  2.914   6.381
+36: jk_cbi_median    24  9.919  2.839   3.49   552  0.641   3.866
+37: bi_rule_resid     0 -0.284  0.238  -1.19  2244 -0.218   0.212
+38: bi_rule_resid     3 -0.410  0.409  -1.00  1816 -0.714   0.365
+39: bi_rule_resid     6  0.030  1.074   0.03  1488 -0.561   0.860
+40: bi_rule_resid    12 -0.342  0.628  -0.54  1043 -0.283   0.609
+41: bi_rule_resid    18 -0.800  0.363  -2.20   751 -1.543   0.629
+42: bi_rule_resid    24  1.744  1.185   1.47   552  0.566   1.017
+            shock     h    b25   se25      t     n ts_b25 ts_se25
+
+=== block permutation, h = 12 ===
+          shock     h        b_obs p_two n_perm
+         <char> <int>        <num> <num>  <int>
+1: jk_mp_median    12 -0.003765359 0.983   2000
+
+=== pre-trend (growth over t-4..t-1 on eps_t) ===
+           shock        b_pre     se_pre n_pre
+          <char>        <num>      <num> <int>
+1:  jk_mp_median  0.052249927 0.07262421  2228
+2:      jk_mp_pm  0.052413789 0.06407749  2228
+3:    usmpd_stmt -0.007908277 0.06829505  2228
+4:      usmpd_me -0.083269025 0.07611313  2228
+5:   bs_mps_orth -0.034736351 0.10998955  1937
+6: jk_cbi_median  0.051666757 0.12231647  2228
+7: bi_rule_resid  0.009411085 0.02198859  2228

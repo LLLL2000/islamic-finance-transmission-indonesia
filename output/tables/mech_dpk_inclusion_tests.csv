@@ -1,0 +1,23 @@
+test,quantity,value,note
+T1 2014-05 (LBUS footnote),SEKI commercial dlog 2014-05 (%),1.41138672102876,""
+T1 2014-05 (LBUS footnote),"Islamic DPK share of SEKI commercial, 2014-04 (%)",5.22669521919868,""
+T1 2014-05 (LBUS footnote),conventional dlog 2014-05 under A: included throughout (%),1.33403501543921,""
+T1 2014-05 (LBUS footnote),conventional dlog 2014-05 under B: Islamic first included 2014-05 (%),-4.03420613673049,""
+T1 2014-05 (LBUS footnote),"min / sd of conventional dlog under A, 2009-2025 excl. break months (%)",,"min -2.12, sd 1.29, n 180"
+T1 2014-05 (LBUS footnote),median |SEKI commercial dlog| 2009-2025 (%),0.894230113951622,""
+T4 conversion 2016-09,"BUS DPK change, abnormal (Rp bn)",19267.9959375,raw 20043; prev-12m median 775
+T4 conversion 2016-09,"SEKI BPD deposits change, abnormal (Rp bn)",-11707.0484,raw -4874; prev-12m median 6833; BPD level 426382; under B expect roughly -(converted bank's deposits)
+T4 conversion 2018-09,"BUS DPK change, abnormal (Rp bn)",11729.907421,raw 11679; prev-12m median -51
+T4 conversion 2018-09,"SEKI BPD deposits change, abnormal (Rp bn)",19866.01795,raw 20784; prev-12m median 918; BPD level 473962; under B expect roughly -(converted bank's deposits)
+T4 conversion 2022-08,"BUS DPK change, abnormal (Rp bn)",23555.1257605001,raw 25036; prev-12m median 1481
+T4 conversion 2022-08,"SEKI BPD deposits change, abnormal (Rp bn)",-947.348850000068,raw 4036; prev-12m median 4984; BPD level 665671; under B expect roughly -(converted bank's deposits)
+T-level 2023-12,"OJK SPI commercial-bank DPK, incl. BUS (Rp bn)",8457929.1,""
+T-level 2023-12,SEKI I.17 commercial private deposits + memo items (Rp bn),8431801.8,""
+T-level 2023-12,OJK BUS DPK (Rp bn),465931.611361,""
+T-level 2023-12,gap SPI - SEKI under A (Rp bn),26127.2999999989,A: SEKI includes BUS
+T-level 2023-12,gap (SPI - BUS) - SEKI under B (Rp bn),-439804.311361001,B: SEKI excludes BUS
+T-level 2024-12,"OJK SPI commercial-bank DPK, incl. BUS (Rp bn)",8837242.3,""
+T-level 2024-12,SEKI I.17 commercial private deposits + memo items (Rp bn),8798873.2,""
+T-level 2024-12,OJK BUS DPK (Rp bn),511374.154008,""
+T-level 2024-12,gap SPI - SEKI under A (Rp bn),38369.1000000015,A: SEKI includes BUS
+T-level 2024-12,gap (SPI - BUS) - SEKI under B (Rp bn),-473005.054007999,B: SEKI excludes BUS

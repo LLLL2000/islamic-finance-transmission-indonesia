@@ -1,0 +1,3 @@
+instrument,outstanding_first,outstanding_last,outstanding_mean,nonres_first,nonres_last,nonres_mean,nonres_share_mean,nonres_share_min,nonres_share_max,sd_daily_dnonres_pct_outst,sd_daily_dnonres_log_pct,sd_daily_dnonres_rp_tn,n_settlement_days,n_settlement_days_thursday,n_increase_days,n_increase_days_thursday,n_increase_days_tuesday,n_days
+SUN,1302.609603,3974.313281,2328.77595328744,550.3831,766.778156,842.157783802665,38.906980858479,19.2933496125164,47.7010594554964,0.114004071264251,0.284843252902572,2.39683472573729,350,192,188,132,8,1576
+SBSN,159.236255,866.31018,470.855554411802,8.13832,16.265169,19.0226683648477,4.67147207541825,1.36516717022958,8.2658256953623,0.13838209040072,3.11262355543465,0.566758503221272,257,135,178,123,14,1576

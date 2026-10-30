@@ -1,0 +1,17 @@
+step,file,rule,cells_set_na,detail
+0,ojk_deposit_returns,rate published as exactly 0 (zero_published) -> NA,479,""
+0,ojk_margins,rate published as exactly 0 (zero_published) -> NA,11127,""
+A,ojk_deposit_returns,2015-11 UUS copy of BUS -> UUS and BUS_UUS 2015-11 NA,51,verified: UUS == BUS in 25 of 25 non-missing cell pairs
+B,ojk_margins,"2024-09 contract margins BUS == UUS -> BUS, UUS, BUS_UUS 2024-09 contract NA",74,verified: BUS == UUS in 23 of 23 non-missing contract cell pairs
+C,ojk_margins,2015-08 contract: BUS_UUS == BUS while UUS non-missing -> BUS_UUS NA,23,verified: BUS_UUS == BUS in 19 of 19 non-missing cell triples
+C,ojk_margins,2018-09 sector: BUS_UUS == BUS while UUS non-missing -> BUS_UUS NA,59,verified: BUS_UUS == BUS in 55 of 55 non-missing cell triples
+C,ojk_margins,2018-10 sector: BUS_UUS == BUS while UUS non-missing -> BUS_UUS NA,59,verified: BUS_UUS == BUS in 55 of 55 non-missing cell triples
+C,ojk_margins,2020-04 sector: BUS_UUS == BUS while UUS non-missing -> BUS_UUS NA,55,verified: BUS_UUS == BUS in 52 of 53 non-missing cell triples
+D,ojk_margins,2020-05 sector BUS_UUS cells equal to the constant 3.888789 -> NA (other cells of the block kept),42,verified: 42 of 64 non-missing cells equal 3.888789
+E,ojk_deposit_returns,2024-09 BUS_UUS == BUS while UUS non-missing -> BUS_UUS 2024-09 NA,26,verified: BUS_UUS == BUS in 16 of 25 non-missing cell triples
+F,ojk_deposit_returns,"one-month spike > 5 pp from both neighbours, opposite signs -> NA",3,2015-12;2009-02;2010-10
+F,ojk_margins,"one-month spike > 5 pp from both neighbours, opposite signs -> NA",78,2020-06;2019-02;2021-07;2017-05;2019-12;2016-01;2016-02;2018-10;2019-09;2020-02;2015-03;2015-10;2017-06;2024-09;2015-07;2015-11;2015-12;2016-04;2021-12;2015-09;2021-06;2014-07;2016-08;2018-02;2016-06
+F,bi_deposit_rates (commercial_banks),same spike rule,0,""
+F,bi_lending_rates (commercial_banks),same spike rule (full 1990+ series; any hit outside 2009-2025 is irrelevant),1,1999-12
+F,macro_monthly policy rate,same spike rule,0,""
+G,ojk_aggregates,"FDR: computed FDR (100 x financing / DPK) used throughout; reported FDR (2014-04 BUS_UUS, 2014-10 BUS disagree) not used",0,""

@@ -1,0 +1,30 @@
+check,value,note
+rpfx_header_vs_jumlah_maxabs[Th 2002-2009],0.0,Rp bn
+rpfx_header_vs_jumlah_maxabs[Th 2010-2012],0.0,Rp bn
+rpfx_header_vs_jumlah_maxabs[Th 2010-2024],0.0,Rp bn
+rpfx_header_vs_jumlah_maxabs[1.17_2],0.0,Rp bn
+sheet_span[Th 2002-2009],2002-01-01..2009-12-01,7104 cells
+sheet_span[Th 2010-2012],2010-01-01..2017-06-01,6660 cells
+sheet_span[Th 2010-2024],2010-01-01..2025-03-01,13542 cells
+sheet_span[1.17_1],2025-01-01..2026-08-01,840 cells
+sheet_span[1.17_2],2025-01-01..2026-08-01,640 cells
+overlap_maxabs[Th 2010-2012 vs Th 2010-2024],4142.7486,"6228 cells, 378 differ by >0.01 Rp bn"
+overlap_diff_months[Th 2010-2012 vs Th 2010-2024],2016-03;2016-07;2016-08;2016-09;2016-10;2016-11;2016-12;2017-01;2017-02;2017-03;2017-04;2017-05;2017-06,groups: bpd;bpr;bsn;memo_central_gov;memo_non_resident;persero;total
+overlap_maxrel[Th 2010-2012 vs Th 2010-2024],0.06047,relative to newer sheet
+"overlap_maxabs[Th 2010-2024 vs 1.17_x (LBUT vintage), 2025-01..03]",190610.3437,"186 cells, 86 differ by >0.01 Rp bn"
+"overlap_diff_months[Th 2010-2024 vs 1.17_x (LBUT vintage), 2025-01..03]",2025-01;2025-02;2025-03,groups: bpd;bsn;memo_non_resident;persero;total
+"overlap_maxrel[Th 2010-2024 vs 1.17_x (LBUT vintage), 2025-01..03]",0.16537,relative to newer sheet
+lbut_total_gap[2025-01-01],-1422.5,"Rp bn, LBUT minus old vintage"
+lbut_total_gap[2025-02-01],-1272.9,"Rp bn, LBUT minus old vintage"
+lbut_total_gap[2025-03-01],-1580.1,"Rp bn, LBUT minus old vintage"
+commercial_groups_incomplete_cells,0,(date x currency x type cells without exactly 4 non-missing groups)
+types_vs_group_total_maxabs,0.04,Rp bn over 5551 group-months (missing giro = 0 for BPR)
+groups_vs_block_total_maxabs,0.02,Rp bn over 888 currency-months
+commercial_idr_plus_fx_vs_all_maxabs,0.03,Rp bn over 1184 cells
+spi_dpk_commercial[2023-12],8457929.1,"Rp bn, OJK SPI Tabel 1.1 'Dana Pihak Ketiga', all commercial banks incl. BUS (row 35)"
+seki_private_commercial[2023-12],8083287.3,"Rp bn, SEKI I.17 sum of the 4 commercial groups, Rp+FX"
+seki_memo_cg_plus_nonres[2023-12],348514.5,"Rp bn, SEKI I.17 memo items (not by group; not in group totals)"
+spi_dpk_commercial[2024-12],8837242.3,"Rp bn, OJK SPI Tabel 1.1 'Dana Pihak Ketiga', all commercial banks incl. BUS (row 35)"
+seki_private_commercial[2024-12],8419610.7,"Rp bn, SEKI I.17 sum of the 4 commercial groups, Rp+FX"
+seki_memo_cg_plus_nonres[2024-12],379262.5,"Rp bn, SEKI I.17 memo items (not by group; not in group totals)"
+rows_written,25456,C:/Users/consu/Documents/Universidad/Islamic_Finance_Project/wp_dual_banking\data\clean\bi_deposits_by_group.csv

@@ -1,0 +1,611 @@
+Warning messages:
+1: package 'fixest' was built under R version 4.4.3 
+2: package 'sandwich' was built under R version 4.4.3 
+  grid H9 done
+  grid H15 done
+There were 30 warnings (use warnings() to see them)
+
+=== A. robustness: ISL-CONV differential, percent per 25 bp ===
+     panel         shock                 spec    est     h    b25   se25      t
+    <char>        <char>               <char> <char> <int> <char> <char> <char>
+ 1:     H9  jk_mp_median             baseline     LP    12  -1.69   3.86  -0.44
+ 2:     H9  jk_mp_median             baseline     DL    12  -2.88   2.06  -1.40
+ 3:     H9  jk_mp_median             baseline     DL    24  -3.48   3.63  -0.96
+ 4:     H9  jk_mp_median    no_isl_x_controls     LP    12  -1.34   3.42  -0.39
+ 5:     H9  jk_mp_median          dl_ctrl_pre     DL    12  -1.21   3.39  -0.36
+ 6:     H9  jk_mp_median          dl_ctrl_pre     DL    24   0.21   6.12   0.03
+ 7:     H9  jk_mp_median         dl_ctrl_post     DL    12  -1.03   1.97  -0.52
+ 8:     H9  jk_mp_median         dl_ctrl_post     DL    24   0.27   3.93   0.07
+ 9:     H9  jk_mp_median             weighted     LP    12   6.58   4.23   1.56
+10:     H9  jk_mp_median             weighted     DL    12   0.55   2.58   0.21
+11:     H9  jk_mp_median             weighted     DL    24  -1.66   4.04  -0.41
+12:     H9  jk_mp_median     drop_break_years     LP    12   0.34   5.60   0.06
+13:     H9  jk_mp_median     drop_break_years     DL    12  -3.08   2.28  -1.35
+14:     H9  jk_mp_median     drop_break_years     DL    24  -3.79   3.83  -0.99
+15:     H9  jk_mp_median        drop_pandemic     LP    12  -3.62   6.44  -0.56
+16:     H9  jk_mp_median        drop_pandemic     DL    12  -2.13   1.97  -1.08
+17:     H9  jk_mp_median        drop_pandemic     DL    24  -3.52   3.75  -0.94
+18:     H9  jk_mp_median drop_post_conversion     LP    12  -2.16   6.67  -0.32
+19:     H9  jk_mp_median drop_post_conversion     DL    12  -2.27   2.24  -1.01
+20:     H9  jk_mp_median drop_post_conversion     DL    24  -3.46   3.50  -0.99
+21:     H9  jk_mp_median       drop_2013_2015     LP    12  -2.75   4.46  -0.62
+22:     H9  jk_mp_median       drop_2013_2015     DL    12  -4.04   1.99  -2.03
+23:     H9  jk_mp_median       drop_2013_2015     DL    24  -4.46   3.21  -1.39
+24:     H9  jk_mp_median               dl_ar3     DL    12   0.50   2.73   0.18
+25:     H9  jk_mp_median               dl_ar3     DL    24   3.90   4.10   0.95
+26:     H9 bi_rule_resid             baseline     LP    12  -0.34   0.63  -0.54
+27:     H9 bi_rule_resid             baseline     DL    12  -2.13   1.09  -1.95
+28:     H9 bi_rule_resid             baseline     DL    24  -3.55   1.84  -1.93
+29:     H9 bi_rule_resid    no_isl_x_controls     LP    12   0.03   0.49   0.05
+30:     H9 bi_rule_resid          dl_ctrl_pre     DL    12  -2.08   1.19  -1.75
+31:     H9 bi_rule_resid          dl_ctrl_pre     DL    24  -3.09   2.13  -1.45
+32:     H9 bi_rule_resid         dl_ctrl_post     DL    12  -3.29   1.81  -1.82
+33:     H9 bi_rule_resid         dl_ctrl_post     DL    24  -6.33   3.11  -2.03
+34:     H9 bi_rule_resid             weighted     LP    12   1.17   1.12   1.04
+35:     H9 bi_rule_resid             weighted     DL    12  -1.66   1.16  -1.43
+36:     H9 bi_rule_resid             weighted     DL    24  -2.94   1.93  -1.53
+37:     H9 bi_rule_resid     drop_break_years     LP    12  -1.14   0.55  -2.05
+38:     H9 bi_rule_resid     drop_break_years     DL    12  -4.87   1.40  -3.48
+39:     H9 bi_rule_resid     drop_break_years     DL    24  -7.75   2.65  -2.93
+40:     H9 bi_rule_resid        drop_pandemic     LP    12   0.24   1.16   0.20
+41:     H9 bi_rule_resid        drop_pandemic     DL    12  -2.36   1.15  -2.06
+42:     H9 bi_rule_resid        drop_pandemic     DL    24  -4.00   1.88  -2.13
+43:     H9 bi_rule_resid drop_post_conversion     LP    12   0.25   1.25   0.20
+44:     H9 bi_rule_resid drop_post_conversion     DL    12  -2.43   1.56  -1.56
+45:     H9 bi_rule_resid drop_post_conversion     DL    24  -4.66   2.52  -1.85
+46:     H9 bi_rule_resid       drop_2013_2015     LP    12  -0.22   0.82  -0.27
+47:     H9 bi_rule_resid       drop_2013_2015     DL    12  -2.00   1.34  -1.49
+48:     H9 bi_rule_resid       drop_2013_2015     DL    24  -2.80   2.31  -1.21
+49:     H9 bi_rule_resid               dl_ar3     DL    12  -3.37   1.29  -2.62
+50:     H9 bi_rule_resid               dl_ar3     DL    24  -5.46   2.42  -2.26
+51:    H15  jk_mp_median             baseline     LP    12  -1.05   2.93  -0.36
+52:    H15  jk_mp_median             baseline     DL    12  -2.36   3.10  -0.76
+53:    H15  jk_mp_median             baseline     DL    24  -3.71   4.61  -0.81
+54:    H15  jk_mp_median    no_isl_x_controls     LP    12  -2.03   3.84  -0.53
+55:    H15  jk_mp_median          dl_ctrl_pre     DL    12  -6.17   2.84  -2.18
+56:    H15  jk_mp_median          dl_ctrl_pre     DL    24 -11.48   6.62  -1.74
+57:    H15  jk_mp_median         dl_ctrl_post     DL    12  -1.60   2.37  -0.68
+58:    H15  jk_mp_median         dl_ctrl_post     DL    24  -2.72   3.65  -0.74
+59:    H15  jk_mp_median             weighted     LP    12  -0.65   3.32  -0.20
+60:    H15  jk_mp_median             weighted     DL    12  -3.48   3.33  -1.04
+61:    H15  jk_mp_median             weighted     DL    24  -4.96   3.70  -1.34
+62:    H15  jk_mp_median     drop_break_years     LP    12     NA     NA     NA
+63:    H15  jk_mp_median     drop_break_years     DL    12  -4.45   2.78  -1.60
+64:    H15  jk_mp_median     drop_break_years     DL    24 -10.29   3.86  -2.67
+65:    H15  jk_mp_median        drop_pandemic     LP    12     NA     NA     NA
+66:    H15  jk_mp_median        drop_pandemic     DL    12  -2.55   2.89  -0.88
+67:    H15  jk_mp_median        drop_pandemic     DL    24  -5.35   3.31  -1.61
+68:    H15  jk_mp_median drop_post_conversion     LP    12     NA     NA     NA
+69:    H15  jk_mp_median drop_post_conversion     DL    12  -1.28   7.43  -0.17
+70:    H15  jk_mp_median drop_post_conversion     DL    24  -7.69   6.12  -1.26
+71:    H15  jk_mp_median               dl_ar3     DL    12  -6.61   3.34  -1.98
+72:    H15  jk_mp_median               dl_ar3     DL    24  -4.49   6.38  -0.70
+73:    H15 bi_rule_resid             baseline     LP    12   0.30   0.73   0.41
+74:    H15 bi_rule_resid             baseline     DL    12  -2.98   0.83  -3.57
+75:    H15 bi_rule_resid             baseline     DL    24  -4.61   1.52  -3.03
+76:    H15 bi_rule_resid    no_isl_x_controls     LP    12   0.86   0.54   1.60
+77:    H15 bi_rule_resid          dl_ctrl_pre     DL    12  -4.25   1.06  -4.00
+78:    H15 bi_rule_resid          dl_ctrl_pre     DL    24  -7.67   2.14  -3.59
+79:    H15 bi_rule_resid         dl_ctrl_post     DL    12  -3.91   1.11  -3.52
+80:    H15 bi_rule_resid         dl_ctrl_post     DL    24  -6.75   2.06  -3.28
+81:    H15 bi_rule_resid             weighted     LP    12   0.60   0.82   0.74
+82:    H15 bi_rule_resid             weighted     DL    12  -2.08   0.74  -2.79
+83:    H15 bi_rule_resid             weighted     DL    24  -3.02   1.62  -1.87
+84:    H15 bi_rule_resid     drop_break_years     LP    12     NA     NA     NA
+85:    H15 bi_rule_resid     drop_break_years     DL    12  -3.99   0.78  -5.13
+86:    H15 bi_rule_resid     drop_break_years     DL    24  -5.70   1.52  -3.75
+87:    H15 bi_rule_resid        drop_pandemic     LP    12     NA     NA     NA
+88:    H15 bi_rule_resid        drop_pandemic     DL    12  -3.43   0.87  -3.95
+89:    H15 bi_rule_resid        drop_pandemic     DL    24  -4.41   1.35  -3.26
+90:    H15 bi_rule_resid drop_post_conversion     LP    12     NA     NA     NA
+91:    H15 bi_rule_resid drop_post_conversion     DL    12  -5.00   1.56  -3.22
+92:    H15 bi_rule_resid drop_post_conversion     DL    24  -7.07   2.45  -2.89
+93:    H15 bi_rule_resid               dl_ar3     DL    12  -0.49   1.28  -0.39
+94:    H15 bi_rule_resid               dl_ar3     DL    24  -1.05   1.94  -0.54
+     panel         shock                 spec    est     h    b25   se25      t
+        n     T   lead lead_se
+    <int> <int> <char>  <char>
+ 1:  1043    92     NA      NA
+ 2:  2760   179  -0.62    1.90
+ 3:  2760   179  -0.62    1.90
+ 4:  1043    92     NA      NA
+ 5:  2760   179  -1.04    1.91
+ 6:  2760   179  -1.04    1.91
+ 7:  2760   179  -2.26    2.17
+ 8:  2760   179  -2.26    2.17
+ 9:  1043    92     NA      NA
+10:  2760   179   1.12    1.85
+11:  2760   179   1.12    1.85
+12:   733    59     NA      NA
+13:  2082   134  -0.51    2.01
+14:  2082   134  -0.51    2.01
+15:   709    63     NA      NA
+16:  2434   157  -1.07    1.93
+17:  2434   157  -1.07    1.93
+18:   661    55     NA      NA
+19:  2202   141  -0.41    2.39
+20:  2202   141  -0.41    2.39
+21:   801    74     NA      NA
+22:  2239   146   0.67    1.98
+23:  2239   146   0.67    1.98
+24:  2244   157  -0.13    1.35
+25:  2244   157  -0.13    1.35
+26:  1043    92     NA      NA
+27:  2760   179   1.88    0.77
+28:  2760   179   1.88    0.77
+29:  1043    92     NA      NA
+30:  2760   179   1.86    0.74
+31:  2760   179   1.86    0.74
+32:  2760   179   1.96    0.73
+33:  2760   179   1.96    0.73
+34:  1043    92     NA      NA
+35:  2760   179   0.56    0.57
+36:  2760   179   0.56    0.57
+37:   733    59     NA      NA
+38:  2082   134   1.51    0.91
+39:  2082   134   1.51    0.91
+40:   709    63     NA      NA
+41:  2434   157   1.80    0.74
+42:  2434   157   1.80    0.74
+43:   661    55     NA      NA
+44:  2202   141   1.24    0.78
+45:  2202   141   1.24    0.78
+46:   801    74     NA      NA
+47:  2239   146   2.17    1.08
+48:  2239   146   2.17    1.08
+49:  2244   157   1.06    0.85
+50:  2244   157   1.06    0.85
+51:   971    42     NA      NA
+52:  2693    93   2.48    1.33
+53:  2693    93   2.48    1.33
+54:   971    42     NA      NA
+55:  2693    93  -0.54    2.41
+56:  2693    93  -0.54    2.41
+57:  2693    93   2.25    1.57
+58:  2693    93   2.25    1.57
+59:   971    42     NA      NA
+60:  2693    93   0.69    1.27
+61:  2693    93   0.69    1.27
+62:   386    15     NA      NA
+63:  1869    64   3.89    1.59
+64:  1869    64   3.89    1.59
+65:   308    13     NA      NA
+66:  2069    71   3.90    1.35
+67:  2069    71   3.90    1.35
+68:   100     5     NA      NA
+69:  1609    55   4.90    1.17
+70:  1609    55   4.90    1.17
+71:  2113    79  -0.47    1.45
+72:  2113    79  -0.47    1.45
+73:   971    42     NA      NA
+74:  2693    93   0.77    0.72
+75:  2693    93   0.77    0.72
+76:   971    42     NA      NA
+77:  2693    93   0.33    0.79
+78:  2693    93   0.33    0.79
+79:  2693    93   0.69    0.71
+80:  2693    93   0.69    0.71
+81:   971    42     NA      NA
+82:  2693    93   0.28    0.58
+83:  2693    93   0.28    0.58
+84:   386    15     NA      NA
+85:  1869    64   0.83    0.81
+86:  1869    64   0.83    0.81
+87:   308    13     NA      NA
+88:  2069    71   0.64    0.72
+89:  2069    71   0.64    0.72
+90:   100     5     NA      NA
+91:  1609    55   0.21    0.38
+92:  1609    55   0.21    0.38
+93:  2113    79   0.64    0.65
+94:  2113    79   0.64    0.65
+        n     T   lead lead_se
+There were 46 warnings (use warnings() to see them)
+
+=== B. leave-one-sector-out, h = 12, percent per 25 bp ===
+     panel         shock sector_out            lp            dl
+    <char>        <char>     <char>        <char>        <char>
+ 1:     H9  jk_mp_median     H9_AGR   1.11 (3.71)  -3.21 (2.33)
+ 2:     H9  jk_mp_median     H9_CON   1.11 (4.17)  -3.91 (2.35)
+ 3:     H9  jk_mp_median     H9_MAN  -1.77 (3.61)  -1.57 (2.11)
+ 4:     H9  jk_mp_median     H9_MIN  -6.24 (5.62)  -2.97 (3.50)
+ 5:     H9  jk_mp_median     H9_SHH  -5.01 (5.04)  -3.75 (2.18)
+ 6:     H9  jk_mp_median     H9_TRD  -0.12 (3.57)  -2.45 (2.21)
+ 7:     H9  jk_mp_median     H9_TRN  -0.48 (3.63)  -4.53 (1.97)
+ 8:     H9  jk_mp_median     H9_UTL  -2.35 (4.71)  -0.62 (2.20)
+ 9:     H9 bi_rule_resid     H9_AGR  -0.37 (0.68)  -2.27 (1.11)
+10:     H9 bi_rule_resid     H9_CON  -0.87 (0.58)  -2.20 (1.21)
+11:     H9 bi_rule_resid     H9_MAN  -0.56 (0.62)  -2.11 (1.19)
+12:     H9 bi_rule_resid     H9_MIN  -0.05 (0.83)  -1.52 (1.34)
+13:     H9 bi_rule_resid     H9_SHH  -0.68 (0.67)  -2.25 (1.25)
+14:     H9 bi_rule_resid     H9_TRD  -0.59 (0.74)  -1.95 (1.21)
+15:     H9 bi_rule_resid     H9_TRN   0.65 (0.94)  -2.19 (1.16)
+16:     H9 bi_rule_resid     H9_UTL  -0.28 (0.64)  -2.57 (0.94)
+17:    H15  jk_mp_median    H15_ACC  -1.77 (3.02)  -3.74 (3.67)
+18:    H15  jk_mp_median    H15_AGR  -1.71 (2.82)  -2.50 (2.99)
+19:    H15  jk_mp_median    H15_CON  -1.45 (3.00)  -2.36 (2.95)
+20:    H15  jk_mp_median    H15_FIN  -0.59 (2.98)  -1.48 (3.18)
+21:    H15  jk_mp_median    H15_HOT  -0.75 (2.60)  -1.93 (3.03)
+22:    H15  jk_mp_median    H15_HRE  -1.14 (3.10)  -2.59 (3.24)
+23:    H15  jk_mp_median    H15_HSH  -1.09 (2.83)  -2.28 (3.30)
+24:    H15  jk_mp_median    H15_HVE  -0.73 (2.89)  -2.01 (3.15)
+25:    H15  jk_mp_median    H15_MAN  -1.07 (3.07)  -1.81 (3.23)
+26:    H15  jk_mp_median    H15_MIN   1.01 (2.82)  -0.02 (3.09)
+27:    H15  jk_mp_median    H15_REB  -1.09 (2.88)  -2.47 (3.11)
+28:    H15  jk_mp_median    H15_SOC  -0.65 (3.16)  -3.19 (3.42)
+29:    H15  jk_mp_median    H15_TRD  -1.38 (2.81)  -1.55 (3.12)
+30:    H15  jk_mp_median    H15_TRN  -2.17 (2.46)  -5.16 (2.31)
+31:    H15  jk_mp_median    H15_UTL  -1.14 (3.87)  -2.25 (3.98)
+32:    H15 bi_rule_resid    H15_ACC   0.65 (0.83)  -2.86 (0.90)
+33:    H15 bi_rule_resid    H15_AGR   0.26 (0.63)  -3.17 (0.88)
+34:    H15 bi_rule_resid    H15_CON  -0.24 (0.76)  -3.04 (0.93)
+35:    H15 bi_rule_resid    H15_FIN  -0.10 (0.77)  -2.69 (0.60)
+36:    H15 bi_rule_resid    H15_HOT   0.35 (0.66)  -3.11 (0.85)
+37:    H15 bi_rule_resid    H15_HRE   0.31 (0.80)  -3.03 (0.85)
+38:    H15 bi_rule_resid    H15_HSH   0.41 (0.65)  -3.23 (0.89)
+39:    H15 bi_rule_resid    H15_HVE   0.40 (0.78)  -3.12 (0.95)
+40:    H15 bi_rule_resid    H15_MAN   0.21 (0.76)  -3.21 (0.87)
+41:    H15 bi_rule_resid    H15_MIN   0.01 (1.06)  -1.56 (0.66)
+42:    H15 bi_rule_resid    H15_REB   0.39 (0.70)  -2.99 (0.92)
+43:    H15 bi_rule_resid    H15_SOC   0.07 (0.82)  -3.56 (0.98)
+44:    H15 bi_rule_resid    H15_TRD   0.37 (0.66)  -2.87 (0.87)
+45:    H15 bi_rule_resid    H15_TRN   0.55 (0.64)  -3.36 (0.79)
+46:    H15 bi_rule_resid    H15_UTL   0.74 (0.67)  -2.85 (0.92)
+     panel         shock sector_out            lp            dl
+Variance contained negative values in the diagonal and was 'fixed' (a la Cameron, Gelbach & Miller 2011).
+There were 32 warnings (use warnings() to see them)
+
+=== C. BUS vs UUS (each relative to CONV, same sector-month), percent per 25 bp ===
+Key: <panel, shock, drop, est, h>
+      panel         shock     drop    est     h            bus            uus
+     <char>        <char>   <char> <char> <int>         <char>         <char>
+  1:    H15 bi_rule_resid     none     DL     0   -0.56 (0.21)    0.09 (0.37)
+  2:    H15 bi_rule_resid     none     DL     6   -0.99 (1.07)   -1.64 (1.41)
+  3:    H15 bi_rule_resid     none     DL    12   -1.88 (1.19)   -6.07 (1.74)
+  4:    H15 bi_rule_resid     none     DL    24   -2.52 (2.36)  -12.20 (3.43)
+  5:    H15 bi_rule_resid     none     LP     0   -0.42 (0.34)    0.18 (0.38)
+  6:    H15 bi_rule_resid     none     LP     6    0.82 (0.71)   -0.89 (1.36)
+  7:    H15 bi_rule_resid     none     LP    12    1.18 (0.67)   -2.24 (1.63)
+  8:    H15 bi_rule_resid     none     LP    24      NA (  NA)      NA (  NA)
+  9:    H15 bi_rule_resid postconv     DL     0   -1.26 (0.34)    0.49 (0.39)
+ 10:    H15 bi_rule_resid postconv     DL     6   -1.49 (1.25)   -3.11 (2.39)
+ 11:    H15 bi_rule_resid postconv     DL    12   -5.57 (1.61)   -5.82 (4.09)
+ 12:    H15 bi_rule_resid postconv     DL    24   -6.48 (3.19)  -13.81 (5.88)
+ 13:    H15 bi_rule_resid postconv     LP     0   -0.64 (0.40)    0.09 (0.45)
+ 14:    H15 bi_rule_resid postconv     LP     6      NA (  NA)      NA (  NA)
+ 15:    H15 bi_rule_resid postconv     LP    12      NA (  NA)      NA (  NA)
+ 16:    H15  jk_mp_median     none     DL     0    0.42 (1.03)   -0.93 (1.16)
+ 17:    H15  jk_mp_median     none     DL     6   -1.68 (4.20)    2.68 (1.76)
+ 18:    H15  jk_mp_median     none     DL    12   -5.73 (5.58)    6.31 (5.54)
+ 19:    H15  jk_mp_median     none     DL    24   -5.53 (6.65)   -3.94 (6.14)
+ 20:    H15  jk_mp_median     none     LP     0   -0.49 (0.87)    0.91 (1.52)
+ 21:    H15  jk_mp_median     none     LP     6   -4.57 (4.53)    3.48 (5.34)
+ 22:    H15  jk_mp_median     none     LP    12   -6.62 (4.94)    8.25 (4.13)
+ 23:    H15  jk_mp_median     none     LP    24      NA (  NA)      NA (  NA)
+ 24:    H15  jk_mp_median postconv     DL     0    2.05 (1.28)   -3.17 (0.85)
+ 25:    H15  jk_mp_median postconv     DL     6   -6.60 (5.19)   11.00 (2.21)
+ 26:    H15  jk_mp_median postconv     DL    12 -15.60 (11.32)   29.55 (4.06)
+ 27:    H15  jk_mp_median postconv     DL    24  -21.30 (8.99)    9.73 (4.12)
+ 28:    H15  jk_mp_median postconv     LP     0    0.53 (1.13)    0.67 (1.81)
+ 29:    H15  jk_mp_median postconv     LP     6      NA (  NA)      NA (  NA)
+ 30:    H15  jk_mp_median postconv     LP    12      NA (  NA)      NA (  NA)
+ 31:    H15      jk_mp_pm     none     DL     0    1.24 (0.76)    0.33 (1.00)
+ 32:    H15      jk_mp_pm     none     DL     6   -1.33 (4.07)    3.02 (1.39)
+ 33:    H15      jk_mp_pm     none     DL    12   -3.28 (4.89)    5.22 (3.91)
+ 34:    H15      jk_mp_pm     none     DL    24   -2.16 (5.94)   -4.58 (5.06)
+ 35:    H15      jk_mp_pm     none     LP     0    0.15 (0.53)    1.53 (0.93)
+ 36:    H15      jk_mp_pm     none     LP     6   -3.48 (3.49)    5.06 (3.84)
+ 37:    H15      jk_mp_pm     none     LP    12   -5.52 (2.86)    7.38 (2.75)
+ 38:    H15      jk_mp_pm     none     LP    24      NA (  NA)      NA (  NA)
+ 39:    H15      jk_mp_pm postconv     DL     0    2.25 (0.65)   -0.69 (0.54)
+ 40:    H15      jk_mp_pm postconv     DL     6   -6.81 (4.35)   12.91 (2.61)
+ 41:    H15      jk_mp_pm postconv     DL    12  -13.32 (8.68)   23.87 (3.49)
+ 42:    H15      jk_mp_pm postconv     DL    24  -19.19 (6.77)    4.28 (3.54)
+ 43:    H15      jk_mp_pm postconv     LP     0    0.43 (0.70)    0.86 (1.07)
+ 44:    H15      jk_mp_pm postconv     LP     6      NA (  NA)      NA (  NA)
+ 45:    H15      jk_mp_pm postconv     LP    12      NA (  NA)      NA (  NA)
+ 46:    H15    usmpd_stmt     none     DL     0    0.23 (0.70)   -0.06 (1.67)
+ 47:    H15    usmpd_stmt     none     DL     6   -8.05 (4.48)    4.25 (2.69)
+ 48:    H15    usmpd_stmt     none     DL    12  -11.07 (6.31)    4.67 (5.67)
+ 49:    H15    usmpd_stmt     none     DL    24   -3.49 (7.35)  -9.28 (11.23)
+ 50:    H15    usmpd_stmt     none     LP     0    0.58 (0.68)    1.60 (1.28)
+ 51:    H15    usmpd_stmt     none     LP     6   -5.81 (2.69)    6.52 (3.26)
+ 52:    H15    usmpd_stmt     none     LP    12   -6.99 (3.01)    9.07 (3.56)
+ 53:    H15    usmpd_stmt     none     LP    24      NA (  NA)      NA (  NA)
+ 54:    H15    usmpd_stmt postconv     DL     0    2.28 (0.89)    0.38 (0.77)
+ 55:    H15    usmpd_stmt postconv     DL     6   -7.09 (5.25)   11.31 (2.58)
+ 56:    H15    usmpd_stmt postconv     DL    12  -18.14 (9.80)   21.87 (4.77)
+ 57:    H15    usmpd_stmt postconv     DL    24  -17.57 (6.93)  -21.24 (6.60)
+ 58:    H15    usmpd_stmt postconv     LP     0    0.94 (0.58)    1.58 (1.36)
+ 59:    H15    usmpd_stmt postconv     LP     6      NA (  NA)      NA (  NA)
+ 60:    H15    usmpd_stmt postconv     LP    12      NA (  NA)      NA (  NA)
+ 61:     H9 bi_rule_resid     none     DL     0   -0.33 (0.38)    0.45 (0.53)
+ 62:     H9 bi_rule_resid     none     DL     6   -0.97 (1.48)   -0.63 (1.94)
+ 63:     H9 bi_rule_resid     none     DL    12   -3.09 (1.20)   -5.29 (2.37)
+ 64:     H9 bi_rule_resid     none     DL    24   -4.04 (1.96)  -10.74 (4.55)
+ 65:     H9 bi_rule_resid     none     LP     0   -0.37 (0.47)    0.28 (0.51)
+ 66:     H9 bi_rule_resid     none     LP     6    2.41 (1.29)    1.44 (1.90)
+ 67:     H9 bi_rule_resid     none     LP    12    2.86 (1.84)   -1.76 (1.79)
+ 68:     H9 bi_rule_resid     none     LP    24      NA (  NA)      NA (  NA)
+ 69:     H9 bi_rule_resid postconv     DL     0   -0.71 (0.53)    0.59 (0.66)
+ 70:     H9 bi_rule_resid postconv     DL     6   -1.31 (1.61)   -0.40 (2.28)
+ 71:     H9 bi_rule_resid postconv     DL    12   -4.74 (1.54)   -3.70 (3.67)
+ 72:     H9 bi_rule_resid postconv     DL    24   -6.42 (2.97)  -11.18 (5.31)
+ 73:     H9 bi_rule_resid postconv     LP     0   -0.61 (0.51)   -0.02 (0.54)
+ 74:     H9 bi_rule_resid postconv     LP     6      NA (  NA)      NA (  NA)
+ 75:     H9 bi_rule_resid postconv     LP    12      NA (  NA)      NA (  NA)
+ 76:     H9  jk_mp_median     none     DL     0    0.85 (0.91)   -1.26 (1.48)
+ 77:     H9  jk_mp_median     none     DL     6   -1.40 (4.04)    5.10 (2.96)
+ 78:     H9  jk_mp_median     none     DL    12   -5.66 (6.40)    5.29 (8.76)
+ 79:     H9  jk_mp_median     none     DL    24   -6.78 (6.64)   -7.93 (7.63)
+ 80:     H9  jk_mp_median     none     LP     0   -0.11 (1.23)    1.59 (1.87)
+ 81:     H9  jk_mp_median     none     LP     6   -9.34 (6.77)   -0.27 (7.23)
+ 82:     H9  jk_mp_median     none     LP    12  -3.74 (10.43)    6.54 (8.18)
+ 83:     H9  jk_mp_median     none     LP    24      NA (  NA)      NA (  NA)
+ 84:     H9  jk_mp_median postconv     DL     0    2.34 (1.44)   -0.93 (2.30)
+ 85:     H9  jk_mp_median postconv     DL     6   -2.82 (5.13)   12.72 (4.66)
+ 86:     H9  jk_mp_median postconv     DL    12  -7.54 (10.40)  20.75 (13.30)
+ 87:     H9  jk_mp_median postconv     DL    24  -11.89 (9.15)   -1.72 (9.24)
+ 88:     H9  jk_mp_median postconv     LP     0    1.20 (1.16)    2.11 (2.26)
+ 89:     H9  jk_mp_median postconv     LP     6      NA (  NA)      NA (  NA)
+ 90:     H9  jk_mp_median postconv     LP    12      NA (  NA)      NA (  NA)
+ 91:     H9      jk_mp_pm     none     DL     0    1.03 (0.56)    0.18 (1.30)
+ 92:     H9      jk_mp_pm     none     DL     6   -1.46 (4.04)    5.31 (2.27)
+ 93:     H9      jk_mp_pm     none     DL    12   -4.61 (5.97)    5.04 (6.79)
+ 94:     H9      jk_mp_pm     none     DL    24   -6.10 (7.52)   -6.53 (8.59)
+ 95:     H9      jk_mp_pm     none     LP     0    0.26 (0.69)    2.33 (1.22)
+ 96:     H9      jk_mp_pm     none     LP     6   -6.92 (4.57)    3.49 (5.08)
+ 97:     H9      jk_mp_pm     none     LP    12   -6.07 (6.43)    7.67 (5.35)
+ 98:     H9      jk_mp_pm     none     LP    24      NA (  NA)      NA (  NA)
+ 99:     H9      jk_mp_pm postconv     DL     0    1.71 (0.72)   -0.41 (1.16)
+100:     H9      jk_mp_pm postconv     DL     6   -7.26 (4.01)   16.49 (5.70)
+101:     H9      jk_mp_pm postconv     DL    12  -11.66 (8.93)  19.17 (11.95)
+102:     H9      jk_mp_pm postconv     DL    24  -20.84 (8.91)   -8.11 (8.39)
+103:     H9      jk_mp_pm postconv     LP     0    0.65 (0.65)    1.90 (1.29)
+104:     H9      jk_mp_pm postconv     LP     6      NA (  NA)      NA (  NA)
+105:     H9      jk_mp_pm postconv     LP    12      NA (  NA)      NA (  NA)
+106:     H9    usmpd_stmt     none     DL     0    0.80 (0.98)   -1.30 (1.90)
+107:     H9    usmpd_stmt     none     DL     6   -8.99 (6.18)    5.32 (4.21)
+108:     H9    usmpd_stmt     none     DL    12  -13.62 (8.97)    5.61 (9.44)
+109:     H9    usmpd_stmt     none     DL    24   -9.39 (9.20) -10.11 (18.91)
+110:     H9    usmpd_stmt     none     LP     0    0.70 (1.08)    1.70 (1.48)
+111:     H9    usmpd_stmt     none     LP     6   -8.56 (4.03)    7.04 (4.07)
+112:     H9    usmpd_stmt     none     LP    12   -9.44 (5.70)   11.07 (4.81)
+113:     H9    usmpd_stmt     none     LP    24      NA (  NA)      NA (  NA)
+114:     H9    usmpd_stmt postconv     DL     0    2.18 (1.23)   -0.09 (1.41)
+115:     H9    usmpd_stmt postconv     DL     6   -8.58 (5.97)   14.65 (5.25)
+116:     H9    usmpd_stmt postconv     DL    12 -17.15 (11.12)  17.40 (11.83)
+117:     H9    usmpd_stmt postconv     DL    24  -18.74 (9.56) -44.85 (10.14)
+118:     H9    usmpd_stmt postconv     LP     0    1.16 (0.69)    2.02 (1.82)
+119:     H9    usmpd_stmt postconv     LP     6      NA (  NA)      NA (  NA)
+120:     H9    usmpd_stmt postconv     LP    12      NA (  NA)      NA (  NA)
+      panel         shock     drop    est     h            bus            uus
+
+=== D. theta_h: TOTAL sector credit on shock x pre-period Islamic share (fraction), percent per 25 bp ===
+Key: <panel, shock, share_var, est>
+     panel         shock share_var    est               0               6
+    <char>        <char>    <char> <char>          <char>          <char>
+ 1:    H15 bi_rule_resid     share     DL    -1.4 (  1.7)     5.7 (  8.4)
+ 2:    H15 bi_rule_resid     share     LP    -2.1 (  2.0)     8.2 (  8.7)
+ 3:    H15  jk_mp_median     share     DL   -10.9 (  7.4)    30.9 ( 12.5)
+ 4:    H15  jk_mp_median     share     LP     2.8 (  7.6)    40.6 ( 14.4)
+ 5:    H15      jk_mp_pm     share     DL    -7.7 (  8.0)    15.5 ( 11.6)
+ 6:    H15      jk_mp_pm     share     LP     0.4 (  8.3)    30.3 ( 15.5)
+ 7:    H15    usmpd_stmt     share     DL     8.7 ( 15.5)    57.4 ( 13.8)
+ 8:    H15    usmpd_stmt     share     LP    14.8 ( 11.6)    62.4 ( 14.2)
+ 9:     H9 bi_rule_resid     share     DL    -4.4 (  4.9)   -16.0 ( 20.8)
+10:     H9 bi_rule_resid     share     LP    -3.2 (  5.5)    11.6 ( 16.6)
+11:     H9 bi_rule_resid share_alt     DL    -7.0 (  5.1)   -20.2 ( 17.6)
+12:     H9 bi_rule_resid share_alt     LP    -6.5 (  6.4)     8.7 ( 12.4)
+13:     H9  jk_mp_median     share     DL   -16.9 ( 19.5)  -117.8 ( 46.0)
+14:     H9  jk_mp_median     share     LP   -17.5 ( 23.2)   -94.4 ( 62.8)
+15:     H9  jk_mp_median share_alt     DL    -7.1 ( 18.3)   -82.0 ( 43.8)
+16:     H9  jk_mp_median share_alt     LP    -0.7 ( 20.3)   -39.7 ( 57.7)
+17:     H9      jk_mp_pm     share     DL    -0.9 ( 20.7)   -86.0 ( 41.1)
+18:     H9      jk_mp_pm     share     LP     0.5 ( 23.2)   -67.9 ( 50.8)
+19:     H9      jk_mp_pm share_alt     DL    12.0 ( 13.0)   -59.0 ( 35.8)
+20:     H9      jk_mp_pm share_alt     LP    17.9 ( 13.6)    -0.1 ( 29.9)
+21:     H9    usmpd_stmt     share     DL    32.1 ( 35.2)  -153.1 ( 68.3)
+22:     H9    usmpd_stmt     share     LP    26.7 ( 41.4)  -136.1 ( 82.9)
+23:     H9    usmpd_stmt share_alt     DL    26.4 ( 19.9)   -83.7 ( 70.2)
+24:     H9    usmpd_stmt share_alt     LP    28.2 ( 23.3)   -23.0 ( 53.8)
+     panel         shock share_var    est               0               6
+                 12              24
+             <char>          <char>
+ 1:     8.5 (  9.1)    -0.1 ( 15.3)
+ 2:     7.5 (  7.7)    -5.6 (  4.4)
+ 3:    41.5 ( 18.1)    44.8 ( 14.3)
+ 4:    67.1 ( 14.7)     4.7 ( 14.3)
+ 5:    35.3 ( 15.0)    27.9 ( 12.5)
+ 6:    54.5 ( 15.8)     8.8 ( 12.5)
+ 7:    55.8 ( 19.7)    81.8 ( 21.6)
+ 8:    76.9 ( 23.6)    23.1 ( 12.6)
+ 9:     0.1 ( 32.0)   -24.1 ( 46.5)
+10:    17.3 ( 16.6)    11.0 ( 31.7)
+11:     4.6 ( 29.8)   -13.1 ( 47.6)
+12:    39.6 ( 13.4)    26.2 ( 24.4)
+13:   -90.8 ( 45.0)  -123.5 ( 61.4)
+14:   -75.8 (105.2)  -303.0 (167.0)
+15:   -90.1 ( 47.9)  -102.5 ( 53.0)
+16:   -44.2 (120.5)  -343.0 (237.4)
+17:   -66.0 ( 53.5)  -128.4 ( 48.9)
+18:   -27.8 ( 89.1)  -102.1 (136.8)
+19:   -76.7 ( 47.5)  -107.2 ( 48.4)
+20:    18.0 ( 68.4)   -59.6 (177.0)
+21:  -218.1 ( 91.2)  -211.8 ( 77.7)
+22:  -164.3 ( 58.6)   -38.1 ( 88.5)
+23:  -154.5 (101.4)  -176.4 ( 94.3)
+24:   -50.1 ( 80.7)    36.1 (116.5)
+                 12              24
+cross-sector spread of the exposure (pre-period share, pct):
+    panel    min     max       sd
+   <char>  <num>   <num>    <num>
+1:     H9 0.7697  6.6311 1.847501
+2:    H15 2.6286 15.7899 3.895461
+
+=== D2. theta_12 checks (DL), percent per 25 bp ===
+    panel         shock             check    b25   se25
+   <char>        <char>            <char> <char> <char>
+1:     H9  jk_mp_median          baseline  -90.8   45.0
+2:     H9 bi_rule_resid          baseline    0.1   32.0
+3:    H15  jk_mp_median          baseline   41.5   18.1
+4:    H15  jk_mp_median household_x_shock   55.7   17.9
+5:    H15 bi_rule_resid          baseline    8.5    9.1
+6:    H15 bi_rule_resid household_x_shock    8.5    6.7
+    panel         shock         min       max sector_min sector_max
+   <char>        <char>       <num>     <num>     <char>     <char>
+1:     H9  jk_mp_median -113.007875 -35.45684     H9_SHH     H9_MAN
+2:     H9 bi_rule_resid  -10.122497   7.64805     H9_CON     H9_TRN
+3:    H15  jk_mp_median   26.584409  76.42043    H15_FIN    H15_HRE
+4:    H15 bi_rule_resid    5.644932  12.44123    H15_MAN    H15_SOC
+
+=== E. Islamic NPF ratio by sector, pp per 25 bp (LP, DK) ===
+Key: <panel, shock>
+    panel         shock             0             3             6            12
+   <char>        <char>        <char>        <char>        <char>        <char>
+1:    H15 bi_rule_resid  -0.03 (0.04)  -0.08 (0.10)   0.01 (0.03)   0.21 (0.09)
+2:    H15  jk_mp_median  -0.15 (0.07)  -0.05 (0.19)   0.04 (0.18)  -0.59 (0.19)
+3:    H15      jk_mp_pm  -0.12 (0.05)  -0.09 (0.14)   0.01 (0.16)  -0.41 (0.16)
+4:    H15    usmpd_stmt  -0.19 (0.11)  -0.14 (0.13)  -0.03 (0.16)  -0.47 (0.17)
+5:     H9 bi_rule_resid   0.05 (0.08)   0.08 (0.14)   0.14 (0.15)   0.48 (0.18)
+6:     H9  jk_mp_median  -0.00 (0.28)  -0.33 (0.50)  -0.97 (0.56)  -2.72 (1.10)
+7:     H9      jk_mp_pm  -0.08 (0.19)  -0.29 (0.33)  -0.54 (0.43)  -1.02 (0.75)
+8:     H9    usmpd_stmt  -0.24 (0.37)  -0.28 (0.38)  -0.42 (0.42)  -0.77 (0.74)
+              18            24
+          <char>        <char>
+1:   0.12 (0.13)   0.12 (0.06)
+2:  -0.51 (0.11)  -0.10 (0.10)
+3:  -0.40 (0.12)   0.04 (0.05)
+4:  -0.40 (0.15)   0.11 (0.04)
+5:   0.31 (0.18)   0.42 (0.32)
+6:  -1.68 (0.61)  -2.55 (1.01)
+7:  -0.99 (0.79)  -1.68 (1.52)
+8:  -0.42 (0.47)  -1.28 (1.89)
+  perm H9 jk_mp_median 
+  perm H9 jk_mp_pm 
+  perm H9 usmpd_stmt 
+  perm H9 usmpd_me 
+  perm H9 bs_mps_orth 
+  perm H9 jk_cbi_median 
+  perm H9 bi_rule_resid 
+  perm H15 jk_mp_median 
+  perm H15 jk_mp_pm 
+  perm H15 usmpd_stmt 
+  perm H15 usmpd_me 
+  perm H15 jk_cbi_median 
+  perm H15 bi_rule_resid 
+There were 13 warnings (use warnings() to see them)
+
+=== F. permutation joint test (all 25 DL lags = 0, average differential) and MDE at h = 12 (panel DL) ===
+     panel         shock      F p_joint ts_b12  p_b12 b12_25 se12_25 MDE25_5pct
+    <char>        <char> <char>  <char> <char> <char> <char>  <char>     <char>
+ 1:     H9  jk_mp_median   0.80   0.714  -2.93  0.334  -2.88    2.06       5.78
+ 2:     H9      jk_mp_pm   0.85   0.650  -2.25  0.415  -2.11    2.11       5.92
+ 3:     H9    usmpd_stmt   0.77   0.728  -6.91  0.112  -6.65    3.74      10.48
+ 4:     H9      usmpd_me   0.69   0.832  -4.18  0.293  -3.75    4.44      12.43
+ 5:     H9   bs_mps_orth   0.79   0.687   4.62  0.503   5.13    5.22      14.61
+ 6:     H9 jk_cbi_median   1.26   0.224  -3.32  0.540  -3.47    5.89      16.49
+ 7:     H9 bi_rule_resid   0.98   0.526  -2.12  0.055  -2.13    1.09       3.06
+ 8:    H15  jk_mp_median   0.72   0.765  -2.53  0.431  -2.36    3.10       8.69
+ 9:    H15      jk_mp_pm   1.14   0.349  -1.16  0.714  -1.07    2.55       7.14
+10:    H15    usmpd_stmt   1.36   0.204  -6.16  0.239  -6.16    3.97      11.12
+11:    H15      usmpd_me   1.05   0.400  -3.73  0.467  -3.72    4.47      12.52
+12:    H15 jk_cbi_median   1.18   0.309  -0.16  0.981  -0.04   11.56      32.37
+13:    H15 bi_rule_resid   0.85   0.680  -2.95  0.010  -2.98    0.83       2.33
+    MDE25_10pct MDEsd_5pct  sd_bp
+         <char>     <char> <char>
+ 1:        5.14       0.81    3.5
+ 2:        5.26       0.84    3.5
+ 3:        9.32       0.94    2.2
+ 4:       11.05       1.32    2.6
+ 5:       12.99       1.76    3.0
+ 6:       14.67       1.28    1.9
+ 7:        2.72       1.55   12.7
+ 8:        7.73       1.22    3.5
+ 9:        6.35       1.01    3.5
+10:        9.89       1.00    2.2
+11:       11.13       1.33    2.6
+12:       28.79       2.51    1.9
+13:        2.07       1.18   12.7
+There were 50 or more warnings (use warnings() to see the first 50)
+
+=== G. sample robustness of beta_12, percent per 25 bp ===
+     panel         shock    sample                 lp                  dl
+    <char>        <char>    <char>             <char>              <char>
+ 1:     H9  jk_mp_median      full  -1.69 (3.86) T=92  -2.88 (2.06) T=179
+ 2:     H9  jk_mp_median  from2010  -1.69 (3.87) T=81  -1.29 (2.69) T=168
+ 3:     H9  jk_mp_median  from2011  -3.22 (3.95) T=69   0.24 (2.67) T=156
+ 4:     H9  jk_mp_median loyo_2009  -1.69 (3.87) T=81  -1.29 (2.69) T=168
+ 5:     H9  jk_mp_median loyo_2010  -3.22 (3.95) T=69  -1.79 (1.92) T=167
+ 6:     H9  jk_mp_median loyo_2011   1.12 (3.71) T=65  -3.91 (2.31) T=167
+ 7:     H9  jk_mp_median loyo_2012   1.53 (4.43) T=65  -2.65 (2.60) T=167
+ 8:     H9  jk_mp_median loyo_2013  -2.46 (4.04) T=76  -3.27 (2.02) T=167
+ 9:     H9  jk_mp_median loyo_2014  -0.90 (3.92) T=88  -3.08 (2.17) T=169
+10:     H9  jk_mp_median loyo_2015  -1.80 (4.18) T=90  -3.55 (1.91) T=168
+11:     H9  jk_mp_median loyo_2016  -1.80 (4.15) T=87  -2.69 (2.24) T=168
+12:     H9  jk_mp_median loyo_2017  -1.69 (3.85) T=84  -3.03 (2.19) T=167
+13:     H9  jk_mp_median loyo_2018  -3.54 (3.55) T=81  -2.44 (2.02) T=168
+14:     H9  jk_mp_median loyo_2019  -3.54 (6.11) T=77  -3.01 (2.15) T=167
+15:     H9  jk_mp_median loyo_2020  -2.94 (7.68) T=65  -1.64 (2.22) T=167
+16:     H9  jk_mp_median loyo_2021   0.01 (6.22) T=73  -2.91 (1.91) T=167
+17:     H9  jk_mp_median loyo_2022  -1.21 (3.62) T=85  -4.45 (2.67) T=168
+18:     H9  jk_mp_median loyo_2023  -1.69 (3.86) T=92  -2.88 (2.06) T=179
+19:     H9  jk_mp_median loyo_2024  -1.69 (3.86) T=89  -2.71 (1.97) T=167
+20:     H9  jk_mp_median loyo_2025  -1.69 (3.86) T=89  -3.14 (1.99) T=173
+21:     H9 bi_rule_resid      full  -0.34 (0.63) T=92  -2.13 (1.09) T=179
+22:     H9 bi_rule_resid  from2010  -0.34 (0.63) T=81  -2.65 (1.20) T=168
+23:     H9 bi_rule_resid  from2011  -0.90 (0.70) T=69  -2.63 (1.20) T=156
+24:     H9 bi_rule_resid loyo_2009  -0.34 (0.63) T=81  -2.65 (1.20) T=168
+25:     H9 bi_rule_resid loyo_2010  -0.90 (0.70) T=69  -2.15 (1.09) T=167
+26:     H9 bi_rule_resid loyo_2011   0.23 (1.37) T=65  -1.74 (1.18) T=167
+27:     H9 bi_rule_resid loyo_2012   0.02 (1.33) T=65  -2.32 (1.21) T=167
+28:     H9 bi_rule_resid loyo_2013  -0.43 (0.85) T=76  -1.06 (1.19) T=167
+29:     H9 bi_rule_resid loyo_2014  -0.65 (0.71) T=88  -3.36 (1.30) T=169
+30:     H9 bi_rule_resid loyo_2015  -0.20 (0.68) T=90  -1.99 (1.22) T=168
+31:     H9 bi_rule_resid loyo_2016  -0.20 (0.66) T=87  -2.47 (1.11) T=168
+32:     H9 bi_rule_resid loyo_2017  -0.34 (0.60) T=84  -2.17 (1.37) T=167
+33:     H9 bi_rule_resid loyo_2018  -0.12 (0.76) T=81  -2.08 (1.03) T=168
+34:     H9 bi_rule_resid loyo_2019   0.28 (0.71) T=77  -1.90 (1.12) T=167
+35:     H9 bi_rule_resid loyo_2020   0.74 (1.02) T=65  -2.03 (1.14) T=167
+36:     H9 bi_rule_resid loyo_2021  -0.34 (0.90) T=73  -2.45 (1.13) T=167
+37:     H9 bi_rule_resid loyo_2022  -0.87 (0.55) T=85  -1.94 (1.13) T=168
+38:     H9 bi_rule_resid loyo_2023  -0.34 (0.63) T=92  -2.13 (1.09) T=179
+39:     H9 bi_rule_resid loyo_2024  -0.34 (0.63) T=89  -1.77 (1.06) T=167
+40:     H9 bi_rule_resid loyo_2025  -0.34 (0.63) T=89  -2.26 (1.12) T=173
+41:    H15  jk_mp_median      full  -1.05 (2.93) T=42   -2.36 (3.10) T=93
+42:    H15  jk_mp_median loyo_2016  -1.13 (3.00) T=39   -2.13 (3.18) T=88
+43:    H15  jk_mp_median loyo_2017     NA (  NA) T=34   -1.91 (3.21) T=81
+44:    H15  jk_mp_median loyo_2018     NA (  NA) T=31   -1.32 (2.37) T=82
+45:    H15  jk_mp_median loyo_2019     NA (  NA) T=27   -2.11 (3.13) T=81
+46:    H15  jk_mp_median loyo_2020     NA (  NA) T=15    1.00 (2.90) T=81
+47:    H15  jk_mp_median loyo_2021     NA (  NA) T=23   -5.47 (2.85) T=81
+48:    H15  jk_mp_median loyo_2022     NA (  NA) T=35  -14.73 (2.52) T=82
+49:    H15  jk_mp_median loyo_2023  -1.05 (2.93) T=42   -2.36 (3.10) T=93
+50:    H15  jk_mp_median loyo_2024  -1.05 (2.94) T=39   -1.81 (3.45) T=81
+51:    H15  jk_mp_median loyo_2025  -1.05 (2.94) T=39   -2.87 (3.09) T=87
+52:    H15 bi_rule_resid      full   0.30 (0.73) T=42   -2.98 (0.83) T=93
+53:    H15 bi_rule_resid loyo_2016   0.31 (0.85) T=39   -3.27 (0.84) T=88
+54:    H15 bi_rule_resid loyo_2017     NA (  NA) T=34   -3.08 (1.10) T=81
+55:    H15 bi_rule_resid loyo_2018     NA (  NA) T=31   -2.31 (1.26) T=82
+56:    H15 bi_rule_resid loyo_2019     NA (  NA) T=27   -4.39 (1.24) T=81
+57:    H15 bi_rule_resid loyo_2020     NA (  NA) T=15   -3.21 (0.91) T=81
+58:    H15 bi_rule_resid loyo_2021     NA (  NA) T=23   -3.18 (0.77) T=81
+59:    H15 bi_rule_resid loyo_2022     NA (  NA) T=35   -2.26 (0.49) T=82
+60:    H15 bi_rule_resid loyo_2023   0.30 (0.73) T=42   -2.98 (0.83) T=93
+61:    H15 bi_rule_resid loyo_2024   0.30 (0.73) T=39   -2.30 (0.89) T=81
+62:    H15 bi_rule_resid loyo_2025   0.30 (0.73) T=39   -2.96 (0.83) T=87
+     panel         shock    sample                 lp                  dl
+
+LOYO ranges (DL):
+    panel         shock     dl_min     dl_max min_abs_t max_abs_t     lp_min
+   <char>        <char>      <num>      <num>     <num>     <num>      <num>
+1:     H9  jk_mp_median  -4.450007 -1.2875193 0.4779501  1.863858 -3.5410984
+2:     H9 bi_rule_resid  -3.362789 -1.0587984 0.8865998  2.587360 -0.9030045
+3:    H15  jk_mp_median -14.734575  0.9965695 0.3440670  5.842179 -1.1287055
+4:    H15 bi_rule_resid  -4.393584 -2.2589566 1.8318355  4.636850  0.2976598
+      lp_max
+       <num>
+1:  1.529317
+2:  0.741020
+3: -1.051896
+4:  0.310461

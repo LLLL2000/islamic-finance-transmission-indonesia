@@ -1,0 +1,110 @@
+outcome,block,unit,label,bank_type,first,last,months_level,clean_changes,breaks,note
+bi_policy,deposit_rates,pp,"BI policy rate (avg, 2016-adj.)","",2009-01-01,2025-06-01,198,197,"",""
+dep_conv_1m,deposit_rates,pp,Conventional time-deposit rate 1m,CONV,2009-01-01,2025-06-01,198,196,2025-01,"SEKI I.28 commercial banks, Rupiah"
+dep_isl_1m,deposit_rates,pp,Islamic mudharabah time-deposit return 1m,BUS_UUS,2009-01-01,2025-06-01,185,176,2014-05;2014-06;2016-09;2018-09;2022-08,"old Tabel 36 (currency unstated) to 2014-05, Rupiah Tabel 17 from 2014-06; change into 2014-06 dropped"
+spread_1m,deposit_rates,pp,Spread Islamic - conventional 1m,BUS_UUS-CONV,2009-01-01,2025-06-01,185,175,2014-05;2014-06;2016-09;2018-09;2022-08;2025-01,""
+dep_bus_1m,deposit_rates,pp,BUS mudharabah time-deposit return 1m,BUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,"Rupiah, 2014-06+"
+spread_bus_1m,deposit_rates,pp,Spread BUS - conventional 1m,BUS-CONV,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2018-09;2022-08;2025-01,""
+dep_uus_1m,deposit_rates,pp,UUS mudharabah time-deposit return 1m,UUS,2014-06-01,2025-06-01,121,113,2014-07;2015-06;2016-09;2018-09;2022-08,"Rupiah, 2014-06+"
+spread_uus_1m,deposit_rates,pp,Spread UUS - conventional 1m,UUS-CONV,2014-06-01,2025-06-01,121,112,2014-07;2015-06;2016-09;2018-09;2022-08;2025-01,""
+dep_conv_3m,deposit_rates,pp,Conventional time-deposit rate 3m,CONV,2009-01-01,2025-06-01,198,196,2025-01,"SEKI I.28 commercial banks, Rupiah"
+dep_isl_3m,deposit_rates,pp,Islamic mudharabah time-deposit return 3m,BUS_UUS,2009-01-01,2025-06-01,184,174,2014-05;2014-06;2016-09;2018-09;2022-08,"old Tabel 36 (currency unstated) to 2014-05, Rupiah Tabel 17 from 2014-06; change into 2014-06 dropped"
+spread_3m,deposit_rates,pp,Spread Islamic - conventional 3m,BUS_UUS-CONV,2009-01-01,2025-06-01,184,173,2014-05;2014-06;2016-09;2018-09;2022-08;2025-01,""
+dep_bus_3m,deposit_rates,pp,BUS mudharabah time-deposit return 3m,BUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,"Rupiah, 2014-06+"
+spread_bus_3m,deposit_rates,pp,Spread BUS - conventional 3m,BUS-CONV,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2018-09;2022-08;2025-01,""
+dep_uus_3m,deposit_rates,pp,UUS mudharabah time-deposit return 3m,UUS,2014-06-01,2025-06-01,121,113,2014-07;2015-06;2016-09;2018-09;2022-08,"Rupiah, 2014-06+"
+spread_uus_3m,deposit_rates,pp,Spread UUS - conventional 3m,UUS-CONV,2014-06-01,2025-06-01,121,112,2014-07;2015-06;2016-09;2018-09;2022-08;2025-01,""
+dep_conv_6m,deposit_rates,pp,Conventional time-deposit rate 6m,CONV,2009-01-01,2025-06-01,198,196,2025-01,"SEKI I.28 commercial banks, Rupiah"
+dep_isl_6m,deposit_rates,pp,Islamic mudharabah time-deposit return 6m,BUS_UUS,2009-01-01,2025-06-01,185,176,2014-05;2014-06;2016-09;2018-09;2022-08,"old Tabel 36 (currency unstated) to 2014-05, Rupiah Tabel 17 from 2014-06; change into 2014-06 dropped"
+spread_6m,deposit_rates,pp,Spread Islamic - conventional 6m,BUS_UUS-CONV,2009-01-01,2025-06-01,185,175,2014-05;2014-06;2016-09;2018-09;2022-08;2025-01,""
+dep_bus_6m,deposit_rates,pp,BUS mudharabah time-deposit return 6m,BUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,"Rupiah, 2014-06+"
+spread_bus_6m,deposit_rates,pp,Spread BUS - conventional 6m,BUS-CONV,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2018-09;2022-08;2025-01,""
+dep_uus_6m,deposit_rates,pp,UUS mudharabah time-deposit return 6m,UUS,2014-06-01,2025-06-01,121,113,2014-07;2015-06;2016-09;2018-09;2022-08,"Rupiah, 2014-06+"
+spread_uus_6m,deposit_rates,pp,Spread UUS - conventional 6m,UUS-CONV,2014-06-01,2025-06-01,121,112,2014-07;2015-06;2016-09;2018-09;2022-08;2025-01,""
+dep_conv_12m,deposit_rates,pp,Conventional time-deposit rate 12m,CONV,2009-01-01,2025-06-01,198,196,2025-01,"SEKI I.28 commercial banks, Rupiah"
+dep_isl_12m,deposit_rates,pp,Islamic mudharabah time-deposit return 12m,BUS_UUS,2009-01-01,2025-06-01,185,176,2014-05;2014-06;2016-09;2018-09;2022-08,"old Tabel 36 (currency unstated) to 2014-05, Rupiah Tabel 17 from 2014-06; change into 2014-06 dropped"
+spread_12m,deposit_rates,pp,Spread Islamic - conventional 12m,BUS_UUS-CONV,2009-01-01,2025-06-01,185,175,2014-05;2014-06;2016-09;2018-09;2022-08;2025-01,""
+dep_bus_12m,deposit_rates,pp,BUS mudharabah time-deposit return 12m,BUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,"Rupiah, 2014-06+"
+spread_bus_12m,deposit_rates,pp,Spread BUS - conventional 12m,BUS-CONV,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2018-09;2022-08;2025-01,""
+dep_uus_12m,deposit_rates,pp,UUS mudharabah time-deposit return 12m,UUS,2014-06-01,2025-06-01,121,113,2014-07;2015-06;2016-09;2018-09;2022-08,"Rupiah, 2014-06+"
+spread_uus_12m,deposit_rates,pp,Spread UUS - conventional 12m,UUS-CONV,2014-06-01,2025-06-01,121,112,2014-07;2015-06;2016-09;2018-09;2022-08;2025-01,""
+gap_bus_uus_1m,deposit_rates,pp,BUS - UUS 1m return,BUS-UUS,2014-06-01,2025-06-01,121,113,2014-07;2015-06;2016-09;2018-09;2022-08,""
+dep_isl_1m_post14,deposit_rates,pp,"Islamic 1m return, Rupiah 2014-06+ only",BUS_UUS,2014-06-01,2025-06-01,120,111,2014-07;2015-06;2016-09;2018-09;2022-08,splice robustness
+spread_1m_post14,deposit_rates,pp,"Spread 1m, 2014-06+ only",BUS_UUS-CONV,2014-06-01,2025-06-01,120,110,2014-07;2015-06;2016-09;2018-09;2022-08;2025-01,splice robustness
+dep_isl_1m_minbrk,deposit_rates,pp,"Islamic 1m return, minimal breaks",BUS_UUS,2009-01-01,2025-06-01,185,180,2014-06,break-rule robustness
+spread_1m_minbrk,deposit_rates,pp,"Spread 1m, minimal breaks",BUS_UUS-CONV,2009-01-01,2025-06-01,185,179,2014-06;2025-01,break-rule robustness
+dep_conv_1m_on_post14,deposit_rates,pp,Conventional 1m rate on the months of dep_isl_1m_post14,CONV,2014-06-01,2025-06-01,120,110,2014-07;2015-06;2016-09;2018-09;2022-08;2025-01,same-sample comparator
+dep_conv_1m_on_bus,deposit_rates,pp,Conventional 1m rate on the months of dep_bus_1m,CONV,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2018-09;2022-08;2025-01,same-sample comparator
+dep_conv_1m_on_uus,deposit_rates,pp,Conventional 1m rate on the months of dep_uus_1m,CONV,2014-06-01,2025-06-01,121,112,2014-07;2015-06;2016-09;2018-09;2022-08;2025-01,same-sample comparator
+lend_conv_cons,financing_rates,pp,"Conventional lending rate, consumption",CONV,2009-01-01,2025-06-01,198,196,2025-01,"SEKI I.26 commercial banks, Rupiah"
+lend_conv_wc,financing_rates,pp,"Conventional lending rate, working_capital",CONV,2009-01-01,2025-06-01,198,196,2025-01,"SEKI I.26 commercial banks, Rupiah"
+lend_conv_inv,financing_rates,pp,"Conventional lending rate, investment",CONV,2009-01-01,2025-06-01,198,196,2025-01,"SEKI I.26 commercial banks, Rupiah"
+fin_isl_murabahah,financing_rates,pp,Islamic murabahah equivalent rate,BUS_UUS,2009-01-01,2025-06-01,182,170,2014-05;2014-06;2016-09;2016-10;2018-09;2021-02;2022-08,"old Tabel 36 to 2014-05, Rupiah Tabel 17 from 2014-06; change into 2014-06 dropped"
+fin_isl_mudharabah,financing_rates,pp,Islamic mudharabah equivalent rate,BUS_UUS,2009-01-01,2025-06-01,184,170,2014-05;2014-06;2016-09;2016-12;2018-09;2021-11;2021-12;2022-08;2022-09,"old Tabel 36 to 2014-05, Rupiah Tabel 17 from 2014-06; change into 2014-06 dropped"
+fin_isl_musyarakah,financing_rates,pp,Islamic musyarakah equivalent rate,BUS_UUS,2009-01-01,2025-06-01,185,175,2014-05;2014-06;2016-09;2016-10;2018-09;2022-08,"old Tabel 36 to 2014-05, Rupiah Tabel 17 from 2014-06; change into 2014-06 dropped"
+fin_bus_murabahah,financing_rates,pp,BUS murabahah equivalent rate,BUS,2014-06-01,2025-06-01,121,112,2014-07;2016-09;2016-10;2018-09;2021-02;2022-08,"Rupiah, 2014-06+"
+fin_uus_murabahah,financing_rates,pp,UUS murabahah equivalent rate,UUS,2014-06-01,2025-06-01,121,112,2014-07;2016-09;2018-09;2021-10;2021-11;2022-08,"Rupiah, 2014-06+"
+fspread_isl_murabahah_cons,financing_rates,pp,Spread isl_murabahah - conv cons,BUS_UUS-CONV,2009-01-01,2025-06-01,182,169,2014-05;2014-06;2016-09;2016-10;2018-09;2021-02;2022-08;2025-01,""
+fspread_isl_murabahah_wc,financing_rates,pp,Spread isl_murabahah - conv wc,BUS_UUS-CONV,2009-01-01,2025-06-01,182,169,2014-05;2014-06;2016-09;2016-10;2018-09;2021-02;2022-08;2025-01,""
+fspread_isl_mudharabah_wc,financing_rates,pp,Spread isl_mudharabah - conv wc,BUS_UUS-CONV,2009-01-01,2025-06-01,184,169,2014-05;2014-06;2016-09;2016-12;2018-09;2021-11;2021-12;2022-08;2022-09;2025-01,""
+fspread_isl_mudharabah_inv,financing_rates,pp,Spread isl_mudharabah - conv inv,BUS_UUS-CONV,2009-01-01,2025-06-01,184,169,2014-05;2014-06;2016-09;2016-12;2018-09;2021-11;2021-12;2022-08;2022-09;2025-01,""
+fspread_isl_musyarakah_wc,financing_rates,pp,Spread isl_musyarakah - conv wc,BUS_UUS-CONV,2009-01-01,2025-06-01,185,174,2014-05;2014-06;2016-09;2016-10;2018-09;2022-08;2025-01,""
+fspread_isl_musyarakah_inv,financing_rates,pp,Spread isl_musyarakah - conv inv,BUS_UUS-CONV,2009-01-01,2025-06-01,185,174,2014-05;2014-06;2016-09;2016-10;2018-09;2022-08;2025-01,""
+fspread_bus_murabahah_cons,financing_rates,pp,Spread bus_murabahah - conv cons,BUS-CONV,2014-06-01,2025-06-01,121,111,2014-07;2016-09;2016-10;2018-09;2021-02;2022-08;2025-01,""
+fspread_uus_murabahah_cons,financing_rates,pp,Spread uus_murabahah - conv cons,UUS-CONV,2014-06-01,2025-06-01,121,111,2014-07;2016-09;2018-09;2021-10;2021-11;2022-08;2025-01,""
+fin_isl_use_cons,financing_rates,pp,"Islamic equivalent rate by use, consumption",BUS_UUS,2014-06-01,2025-06-01,122,114,2014-07;2016-09;2016-10;2018-09;2021-02;2022-08,"SPS Tabel 18, all debtor sizes, all currencies, 2014-06+"
+fspread_use_cons,financing_rates,pp,"Spread Islamic - conventional, same use: consumption",BUS_UUS-CONV,2014-06-01,2025-06-01,122,113,2014-07;2016-09;2016-10;2018-09;2021-02;2022-08;2025-01,""
+lend_conv_cons_on_use,financing_rates,pp,"Conventional lending rate on the months of the use-matched Islamic rate, consumption",CONV,2014-06-01,2025-06-01,122,113,2014-07;2016-09;2016-10;2018-09;2021-02;2022-08;2025-01,same-sample comparator
+fin_isl_use_wc,financing_rates,pp,"Islamic equivalent rate by use, working_capital",BUS_UUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,"SPS Tabel 18, all debtor sizes, all currencies, 2014-06+"
+fspread_use_wc,financing_rates,pp,"Spread Islamic - conventional, same use: working_capital",BUS_UUS-CONV,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2018-09;2022-08;2025-01,""
+lend_conv_wc_on_use,financing_rates,pp,"Conventional lending rate on the months of the use-matched Islamic rate, working_capital",CONV,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2018-09;2022-08;2025-01,same-sample comparator
+fin_isl_use_inv,financing_rates,pp,"Islamic equivalent rate by use, investment",BUS_UUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,"SPS Tabel 18, all debtor sizes, all currencies, 2014-06+"
+fspread_use_inv,financing_rates,pp,"Spread Islamic - conventional, same use: investment",BUS_UUS-CONV,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2018-09;2022-08;2025-01,""
+lend_conv_inv_on_use,financing_rates,pp,"Conventional lending rate on the months of the use-matched Islamic rate, investment",CONV,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2018-09;2022-08;2025-01,same-sample comparator
+dpk_isl_total,funding,percent (100 log),"BUS_UUS DPK, total",BUS_UUS,2009-01-01,2025-06-01,187,180,2014-05;2016-09;2018-09;2021-12;2022-08,OJK SPS harmonised series
+dpk_bus_total,funding,percent (100 log),"BUS DPK, total",BUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,OJK SPS harmonised series
+dpk_uus_total,funding,percent (100 log),"UUS DPK, total",UUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,OJK SPS harmonised series
+dpk_comm_total,funding,percent (100 log),"All commercial banks private deposits (incl. Islamic), total",ALL,2009-01-01,2025-06-01,198,195,2014-05;2025-01,"SEKI I.17, 4 commercial groups, Rp+FX"
+dpk_conv_total,funding,percent (100 log),"Conventional DPK, total",CONV,2009-01-01,2025-06-01,187,179,2014-05;2016-09;2018-09;2021-12;2022-08;2025-01,SEKI I.17 commercial banks minus OJK BUS+UUS
+dpk_diff_total,funding,percent (100 log),"Islamic - conventional DPK growth, total",BUS_UUS-CONV,2009-01-01,2025-06-01,187,179,2014-05;2016-09;2018-09;2021-12;2022-08;2025-01,""
+dpk_isl_demand,funding,percent (100 log),"BUS_UUS DPK, demand",BUS_UUS,2009-01-01,2025-06-01,187,181,2014-05;2016-09;2018-09;2022-08,OJK SPS harmonised series
+dpk_bus_demand,funding,percent (100 log),"BUS DPK, demand",BUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,OJK SPS harmonised series
+dpk_uus_demand,funding,percent (100 log),"UUS DPK, demand",UUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,OJK SPS harmonised series
+dpk_comm_demand,funding,percent (100 log),"All commercial banks private deposits (incl. Islamic), demand",ALL,2009-01-01,2025-06-01,198,195,2014-05;2025-01,"SEKI I.17, 4 commercial groups, Rp+FX"
+dpk_conv_demand,funding,percent (100 log),"Conventional DPK, demand",CONV,2009-01-01,2025-06-01,187,180,2014-05;2016-09;2018-09;2022-08;2025-01,SEKI I.17 commercial banks minus OJK BUS+UUS
+dpk_diff_demand,funding,percent (100 log),"Islamic - conventional DPK growth, demand",BUS_UUS-CONV,2009-01-01,2025-06-01,187,180,2014-05;2016-09;2018-09;2022-08;2025-01,""
+dpk_isl_savings,funding,percent (100 log),"BUS_UUS DPK, savings",BUS_UUS,2009-01-01,2025-06-01,187,179,2014-05;2016-09;2016-12;2018-09;2021-12;2022-08,OJK SPS harmonised series
+dpk_bus_savings,funding,percent (100 log),"BUS DPK, savings",BUS,2014-06-01,2025-06-01,122,114,2014-07;2016-09;2016-12;2018-09;2021-12;2022-08,OJK SPS harmonised series
+dpk_uus_savings,funding,percent (100 log),"UUS DPK, savings",UUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,OJK SPS harmonised series
+dpk_comm_savings,funding,percent (100 log),"All commercial banks private deposits (incl. Islamic), savings",ALL,2009-01-01,2025-06-01,198,195,2014-05;2025-01,"SEKI I.17, 4 commercial groups, Rp+FX"
+dpk_conv_savings,funding,percent (100 log),"Conventional DPK, savings",CONV,2009-01-01,2025-06-01,187,178,2014-05;2016-09;2016-12;2018-09;2021-12;2022-08;2025-01,SEKI I.17 commercial banks minus OJK BUS+UUS
+dpk_diff_savings,funding,percent (100 log),"Islamic - conventional DPK growth, savings",BUS_UUS-CONV,2009-01-01,2025-06-01,187,178,2014-05;2016-09;2016-12;2018-09;2021-12;2022-08;2025-01,""
+dpk_isl_time,funding,percent (100 log),"BUS_UUS DPK, time",BUS_UUS,2009-01-01,2025-06-01,187,180,2014-05;2016-09;2018-09;2021-11;2022-08,OJK SPS harmonised series
+dpk_bus_time,funding,percent (100 log),"BUS DPK, time",BUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,OJK SPS harmonised series
+dpk_uus_time,funding,percent (100 log),"UUS DPK, time",UUS,2014-06-01,2025-06-01,122,114,2014-07;2016-09;2018-09;2021-11;2022-08;2022-09,OJK SPS harmonised series
+dpk_comm_time,funding,percent (100 log),"All commercial banks private deposits (incl. Islamic), time",ALL,2009-01-01,2025-06-01,198,195,2014-05;2025-01,"SEKI I.17, 4 commercial groups, Rp+FX"
+dpk_conv_time,funding,percent (100 log),"Conventional DPK, time",CONV,2009-01-01,2025-06-01,187,179,2014-05;2016-09;2018-09;2021-11;2022-08;2025-01,SEKI I.17 commercial banks minus OJK BUS+UUS
+dpk_diff_time,funding,percent (100 log),"Islamic - conventional DPK growth, time",BUS_UUS-CONV,2009-01-01,2025-06-01,187,179,2014-05;2016-09;2018-09;2021-11;2022-08;2025-01,""
+dpk_convmemo_total,funding,percent (100 log),"Conventional DPK incl. memo items, total",CONV,2009-01-01,2025-06-01,187,179,2014-05;2016-09;2018-09;2021-12;2022-08;2025-01,robustness: + central government + non-residents
+dpk_diffmemo_total,funding,percent (100 log),"Islamic - conventional DPK growth (conv. incl. memo), total",BUS_UUS-CONV,2009-01-01,2025-06-01,187,179,2014-05;2016-09;2018-09;2021-12;2022-08;2025-01,""
+dpk_diff_bus_uus_total,funding,percent (100 log),"BUS - UUS DPK growth, total",BUS-UUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,""
+fdr_isl,funding,pp,BUS_UUS FDR (computed),BUS_UUS,2009-01-01,2025-06-01,187,180,2014-05;2016-09;2018-09;2021-11;2022-08,100 x financing / DPK (rule G)
+fdr_bus,funding,pp,BUS FDR (computed),BUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,100 x financing / DPK (rule G)
+fdr_uus,funding,pp,UUS FDR (computed),UUS,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2018-09;2022-08;2022-09,100 x financing / DPK (rule G)
+share_murabahah_isl,contract_mix,pp,BUS_UUS murabahah share of financing,BUS_UUS,2009-01-01,2025-06-01,187,180,2014-05;2016-09;2016-12;2018-09;2022-08,""
+share_ps_isl,contract_mix,pp,BUS_UUS profit-sharing (mudharabah+musyarakah) share,BUS_UUS,2009-01-01,2025-06-01,187,180,2014-05;2016-09;2016-12;2018-09;2022-08,""
+npf_isl,npf,pp,BUS_UUS gross NPF ratio (computed),BUS_UUS,2009-01-01,2025-06-01,187,181,2014-05;2016-09;2018-09;2022-08,100 x NPF / financing
+share_murabahah_bus,contract_mix,pp,BUS murabahah share of financing,BUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,""
+share_ps_bus,contract_mix,pp,BUS profit-sharing (mudharabah+musyarakah) share,BUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,""
+npf_bus,npf,pp,BUS gross NPF ratio (computed),BUS,2014-06-01,2025-06-01,122,113,2014-07;2015-06;2016-09;2016-12;2018-09;2021-11;2022-08,100 x NPF / financing
+share_murabahah_uus,contract_mix,pp,UUS murabahah share of financing,UUS,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2016-12;2018-09;2022-08,""
+share_ps_uus,contract_mix,pp,UUS profit-sharing (mudharabah+musyarakah) share,UUS,2014-06-01,2025-06-01,122,115,2014-07;2016-09;2016-12;2018-09;2022-08,""
+npf_uus,npf,pp,UUS gross NPF ratio (computed),UUS,2014-06-01,2025-06-01,122,115,2014-07;2015-06;2016-09;2018-09;2022-08,100 x NPF / financing
+fin_isl_murabahah_noevt,financing_rates,pp,"Islamic murabahah rate, event rule off",BUS_UUS,2009-01-01,2025-06-01,182,172,2014-05;2014-06;2016-09;2018-09;2022-08,event-rule robustness
+fspread_isl_murabahah_wc_noevt,financing_rates,pp,"Spread murabahah - conv wc, event rule off",BUS_UUS-CONV,2009-01-01,2025-06-01,182,171,2014-05;2014-06;2016-09;2018-09;2022-08;2025-01,event-rule robustness
+dpk_isl_total_noevt,funding,percent (100 log),"BUS_UUS DPK total, event rule off",BUS_UUS,2009-01-01,2025-06-01,187,181,2014-05;2016-09;2018-09;2022-08,event-rule robustness
+dpk_conv_total_noevt,funding,percent (100 log),"Conventional DPK total, event rule off",CONV,2009-01-01,2025-06-01,187,180,2014-05;2016-09;2018-09;2022-08;2025-01,event-rule robustness
+dpk_diff_total_noevt,funding,percent (100 log),"Islamic - conventional DPK growth, total, event rule off",BUS_UUS-CONV,2009-01-01,2025-06-01,187,180,2014-05;2016-09;2018-09;2022-08;2025-01,event-rule robustness
+dep_bus_1m_noevt,deposit_rates,pp,"BUS 1m return, event rule off",BUS,2014-06-01,2025-06-01,122,116,2014-07;2016-09;2018-09;2022-08,event-rule robustness
+dep_uus_1m_noevt,deposit_rates,pp,"UUS 1m return, event rule off",UUS,2014-06-01,2025-06-01,121,114,2014-07;2016-09;2018-09;2022-08,event-rule robustness
+gap_bus_uus_1m_noevt,deposit_rates,pp,"BUS - UUS 1m return, event rule off",BUS-UUS,2014-06-01,2025-06-01,121,114,2014-07;2016-09;2018-09;2022-08,event-rule robustness

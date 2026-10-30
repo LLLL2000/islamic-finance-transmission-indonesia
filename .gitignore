@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+# exploratory parsing/debug scripts used while building the OJK files
+code/py/_inspect.py
+code/py/bi_inspect_labels.py
+code/py/ojk_mech_*.py
+# build artefact of the PDF step
+paper/working_paper_print.html
+# unfinished foreign-currency module (stopped mid-build)
+data/raw/bi_seki_fx/
